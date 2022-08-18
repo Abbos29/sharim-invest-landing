@@ -287,7 +287,7 @@ var slick = new SliderS(".mySlider");
 // ScrollReveal
 
 ScrollReveal({
-    reset: true,
+    reset: false,
     // distance: '100px',
     duration: 700,
     delay: 200,
