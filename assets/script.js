@@ -22,7 +22,12 @@ window.addEventListener("scroll", function () {
 
     if (offset > 20) nav.classList.add("sticky");
     else nav.classList.remove("sticky");
+    
+    
 });
+setTimeout(() => {
+    document.querySelector('.header__box_path').style.backdropFilter = 'blur(10px) opacity(1)';        
+}, 1800);
 
 if (offset > 20) nav.classList.add("sticky");
 else nav.classList.remove("sticky");
@@ -295,6 +300,8 @@ ScrollReveal().reveal('.header__title, .header__info, .header__box-pics, .about_
     interval: 100,
     opacity: 0
 });
+
+
 
 ScrollReveal().reveal('.navbar__menu-item', {
     reset: false,
